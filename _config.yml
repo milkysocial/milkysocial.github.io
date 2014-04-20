@@ -1,0 +1,52 @@
+# Dependencies
+markdown:	redcarpet
+pygments:	true
+
+# Permalinks
+permalink:	/blog/:title
+
+# Setup
+title:		Milky
+tagline:	'blog'
+description:	Our tech blog
+url:		http://milkysocial.github.io
+
+author:
+  name:
+  url:
+
+paginate:	5
+
+# Custom vars
+icon:		/assets/images/logo.svg
+cover:		/assets/images/cover.jpg
+
+social:
+  - icon:	twitter
+    url:	https://twitter.com/milky_web
+    desc:	Follow us on twitter
+
+  - icon:	github
+    url:	https://github.com/milkysocial
+    desc:	Fork us on github
+
+  - icon:	facebook
+    url:	https://www.facebook.com/milky
+    desc:	We're on Facebook
+
+  # - icon:	feed
+  #   url:	http://camporez.com/atom.xml
+  #   desc:	Subscribe to my feed
+
+menu:
+  - title:	Home
+    url:	/
+
+  - title:	About
+    url:	/about
+
+copyright:
+  author:	Milky
+  url:		http://milky.fr
+  # type_title:	Some rights reserved
+  # type_url:	http://creativecommons.org/licenses/by-nc/2.5
