@@ -4,7 +4,7 @@
  <title>Milky</title>
  <link href="http://milkysocial.github.io/atom.xml" rel="self"/>
  <link href="http://milkysocial.github.io/"/>
- <updated>2014-04-20T18:36:15+02:00</updated>
+ <updated>2014-04-21T13:15:18+02:00</updated>
  <id>http://milkysocial.github.io</id>
  <author>
    <name></name>
@@ -45,46 +45,15 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&g
  </entry>
  
  <entry>
-   <title>Something</title>
+   <title>Give a try to Interactors.</title>
    <link href="http://milkysocial.github.io/blog/something"/>
    <updated>2014-04-20T00:00:00+02:00</updated>
    <id>http://milkysocial.github.io/blog/something</id>
-   <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+   <content type="html">&lt;p&gt;I&amp;#39;ve been playing with &lt;a href=&#39;https://github.com/collectiveidea/interactor&#39; target=&quot;_blank&quot;&gt;interactors&lt;/a&gt; for a few weeks, and I have to admit I like the way it behave. It&amp;#39;s a neat way to separate this kind of code, you either put in controller methods (bad) or in this fat model (have you seen my five hundreds lines User class ?).&lt;/p&gt;
+
+&lt;p&gt;It&amp;#39;s basically a service object, with some helper methods, the ability to decide if the action you initiate failed or not, and rollback possibilities. None of this is really new, but all together it makes a nice and really useful plain-ruby object. I recommend you to read this article, and to test it. You probably have somewhere this huge &lt;code&gt;process_stuff&lt;/code&gt; or &lt;code&gt;update_this_regarding_that&lt;/code&gt; method you can give a try on.&lt;/p&gt;
+
+&lt;p&gt;I won&amp;#39;t re-write the doc, I&amp;#39;d rather like to look further in the interactor gem code.&lt;/p&gt;
 </content>
  </entry>
  
